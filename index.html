@@ -1,1 +1,4 @@
 Hello World
+{% for post in site.categories.slides %}
+  {% include slide.html %}
+{% endfor %}
