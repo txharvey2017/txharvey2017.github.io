@@ -3,6 +3,6 @@ layout: default
 ---
 
 Hello World
-{% for post in site.categories.slides %}
-  {% include slide.html %}
+{% for post in site.posts %}
+ <br> Posts:  {{post.title}}
 {% endfor %}
